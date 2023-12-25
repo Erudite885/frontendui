@@ -1,0 +1,24 @@
+.journey-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #ededed;
+  padding-top: 70px;
+  padding-bottom: 106px;
+}
+
+
+.journey-button {
+  background-color: #ff5634;
+  border-color: #ff5634;
+  color: #fff; /* Text color for better visibility on the background */
+  
+  &:hover,
+  &:focus {
+    background-color: #ff2915; /* Adjust hover color as needed */
+    border-color: #ff2915;
+  }
+}
+
+// .cards {
+
+// }

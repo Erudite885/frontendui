@@ -1,0 +1,39 @@
+.press-section{
+    background-color: #ededed;
+    // color: var(--neutral--600);
+    font-family: Metropolis, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.667em;
+
+        padding: 166px 140px;
+}
+
+.left-side {
+    text-align: center;
+    padding: 50px;
+}
+
+.custom-card-body {
+  padding: 40px; /* Adjust the padding value as needed */
+}
+
+.custom-card {
+  height: 100%; /* Adjust the height value as needed */
+}
+
+.pressLogoImage {
+    padding: 50px 0;
+}
+
+.pressText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0;
+
+    .pressTextSmall {
+        color: #ff2915;
+        font-size: 18px;
+    }
+}

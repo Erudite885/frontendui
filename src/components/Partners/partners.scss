@@ -1,0 +1,37 @@
+// partners.scss
+
+h1 {
+    color:#121212;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.227em;
+}
+
+.partners-image {
+  .card {
+    border: none;
+  }
+}
+
+.partners-section {
+  padding: 166px; // Adjust the padding as needed
+
+
+  .partners-text {
+
+    text-align: center; // Center text horizontally
+    margin-bottom: 110px; // Add margin as needed
+  }
+
+  .partners-image {
+    // Add styles for the image and cards on the right side
+    text-align: center; // Center content horizontally
+
+    .card {
+      // Add styles for individual cards
+      margin-bottom: 20px; // Add margin between cards
+    }
+  }
+}

@@ -1,0 +1,58 @@
+// .navbar {
+//     background-color: #fff;
+// }
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+}
+
+.navbar-nav {
+    margin-left: auto;
+
+    .nav-link {
+        color: #000;
+
+        &:hover,&:focus,&:active{
+            color: #ff5634;
+        }
+    }
+}
+
+.navbar-nav .nav-item.active {
+    background-color: #ff5634;
+}
+
+.scrolling-navbar {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .download-app-button{
+ border: 1px solid #ededed;
+ color: #000; /* Text color for better visibility on the background */
+  
+  &:hover,
+  &:focus {
+    color: #fff;
+     background-color: #ff5634;
+    border-color: #ff5634; /* Adjust hover color as needed */
+  }
+}
+
+.nav-link, .btn {
+    margin-right: 20px;
+}
+
+.navbar-nav .register-button {
+  background-color: #ff5634;
+  border-color: #ff5634;
+  color: #fff; /* Text color for better visibility on the background */
+  
+  &:hover,
+  &:focus {
+    background-color: #ff2915; /* Adjust hover color as needed */
+    border-color: #ff2915;
+  }
+}

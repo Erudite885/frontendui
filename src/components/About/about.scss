@@ -1,0 +1,44 @@
+h1 {
+      color: #121212;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.161em;
+}
+
+p {
+    color: #656565;
+    font-family: Metropolis, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.667em;
+}
+
+.about-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff ;
+  padding-top: 70px;
+  padding-bottom: 106px;
+}
+
+.about-text {
+  padding-top: 40px;
+// align-content: center;
+}
+
+.about-header-text {
+        letter-spacing: .06em;
+    text-transform: uppercase;
+        font-size: 18px;
+    line-height: 1.111em;
+    color: #ff5634;
+    font-weight: bold;
+}
+
+.about-image {
+  text-align: center; /* Center image horizontally */
+  // filter: blur(5px); /* Adjust the blur strength as needed */
+  position: relative;
+}
