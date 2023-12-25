@@ -1,5 +1,5 @@
 # FrontendUI
-[FrontendUI](/public/desktop-image.png)
+![FrontendUI](/public/desktop-image.png)
 
 ## React + Vite
 
